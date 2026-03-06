@@ -1,0 +1,8 @@
+{
+  "run": {"days_window": 30, "top_k": 20},
+  "sources": {"crossref": true, "arxiv": true, "biorxiv": false, "medrxiv": false},
+  "weights": {"semantic": 0.55, "recency": 0.2, "citation": 0.1, "sjr": 0.1, "whitelist": 0.05},
+  "whitelist_journals": ["Nature", "Science"],
+  "zotero": {"user_id": "YOUR_USER_ID", "api_key_env": "ZOTERO_API_KEY"},
+  "chat": {"project_id": "YOUR_PROJECT_ID", "api_key_env": "OPENAI_API_KEY"}
+}
